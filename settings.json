@@ -1,0 +1,10 @@
+{
+  "public": {
+    "recordsPerPage" : "5"
+  },
+  "private": {
+    "AWSAccessKeyId": "AKIAJRI4DFBJHVXLCU6A",
+    "AWSSecretAccessKey": "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",
+    "AWSBucket": "mixgif"
+  }
+}
