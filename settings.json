@@ -3,8 +3,8 @@
     "recordsPerPage" : "5"
   },
   "private": {
-    "AWSAccessKeyId": "AKIAJRI4DFBJHVXLCU6A",
-    "AWSSecretAccessKey": "H+/aELJQHbEBURJmLmezhfFTPdQeklJ+hLqEFZZF",
-    "AWSBucket": "mixgif"
+    "AWSAccessKeyId": "Your Own Key",
+    "AWSSecretAccessKey": "Your Own Key",
+    "AWSBucket": "Your Bucket"
   }
 }

@@ -1,7 +1,12 @@
 <template name="home">
 	{{> dropzone}}
-
-	{{#each images}}
+	<br/><br/><br/>
+	<!--{{#each images}}
 		{{> image}}
+	{{/each}}-->
+	{{#each sounds}}
+		{{#if isAudio}}
+			{{> sound}}
+		{{/if}}
 	{{/each}}
 </template>

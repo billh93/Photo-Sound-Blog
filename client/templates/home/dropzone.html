@@ -8,4 +8,10 @@
 			</div>
 		</div>
 	</div>
+	{{#autoForm collection="Gifs" type="insert"}}
+		<!--{{> afQuickField name="title"}}-->
+		{{> afQuickField name="picture"}}
+		{{> afQuickField name="sound"}}
+		<button type="submit" class="btn btn-primary">Insert</button>
+	{{/autoForm}}
 </template>

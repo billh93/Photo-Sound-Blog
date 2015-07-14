@@ -6,6 +6,7 @@ Template.home.created = function() {
 
 	Deps.autorun(function() {
 		Meteor.subscribe('images', self.limit.get());
+		Meteor.subscribe('sounds', self.limit.get());
 	});
 };
 
@@ -22,6 +23,9 @@ Template.home.rendered = function() {
 Template.home.helpers({
 	'images': function() {
 		return Images.find();
+	},
+	'sounds': function() {
+		return Sounds.find();
 	}
 });
 
