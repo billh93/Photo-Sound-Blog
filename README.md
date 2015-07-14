@@ -1,12 +1,14 @@
-# A simple Meteor Photo Blog
-
-A simple application, demonstrating file uploads to Amazon S3 in Meteor.  Companion source code for the following blog posts: 
-
+This code is originally from a Meteor Photo Blog tutorial Pt.1 which the link is provided below:
 - [http://experimentsinmeteor.com/photo-blog-part-1/](http://experimentsinmeteor.com/paging-and-sorting-part-1/)
 
-## Branches
+However, I'm adding a feature where users could upload sounds to their s3 bucket. However, I came across a problem
+and I don't know how to fix it which is why I have put this code up on here.
 
-There are 2 branches in this repository:
+If anyone could help me you will get credit by having your name as one of the technical supporters of the app.
+(If you want your name to be on it)
 
-- "part-0" corresponds to the starting point for [Part 1](http://experimentsinmeteor.com/photo-blog-part-1/).
-- "part-1" corresponds to the finished version of the code for [Part 1](http://experimentsinmeteor.com/photo-blog-part-1/).
+
+ 
+
+
+
