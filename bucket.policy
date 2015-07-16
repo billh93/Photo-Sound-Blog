@@ -1,0 +1,15 @@
+{
+    "Version": "2012-10-17",
+    "Id": "PolicyXXXXXXXXXXXXXXX,
+    "Statement": [
+        {
+            "Sid": "XXXXXXXXXXXXXXXXXX,
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::XXXXXXXXXXXX:user/your-user"
+            },
+            "Action": "s3:*",
+            "Resource": "arn:aws:s3:::your-bucket/*"
+        }
+    ]
+}
